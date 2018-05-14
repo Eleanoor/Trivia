@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B290505220A97E5B00B289EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290505120A97E5B00B289EF /* AppDelegate.swift */; };
+		B290505420A97E5B00B289EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290505320A97E5B00B289EF /* ViewController.swift */; };
+		B290505720A97E5B00B289EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B290505520A97E5B00B289EF /* Main.storyboard */; };
+		B290505920A97E5D00B289EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B290505820A97E5D00B289EF /* Assets.xcassets */; };
+		B290505C20A97E5D00B289EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B290505A20A97E5D00B289EF /* LaunchScreen.storyboard */; };
+		B290506720A97E5D00B289EF /* TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290506620A97E5D00B289EF /* TriviaTests.swift */; };
+		B290507220A97E5D00B289EF /* TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290507120A97E5D00B289EF /* TriviaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B290506320A97E5D00B289EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B290504620A97E5B00B289EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B290504D20A97E5B00B289EF;
+			remoteInfo = Trivia;
+		};
+		B290506E20A97E5D00B289EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B290504620A97E5B00B289EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B290504D20A97E5B00B289EF;
+			remoteInfo = Trivia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B290504E20A97E5B00B289EF /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B290505120A97E5B00B289EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B290505320A97E5B00B289EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B290505620A97E5B00B289EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B290505820A97E5D00B289EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B290505B20A97E5D00B289EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B290505D20A97E5D00B289EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B290506220A97E5D00B289EF /* TriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B290506620A97E5D00B289EF /* TriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaTests.swift; sourceTree = "<group>"; };
+		B290506820A97E5D00B289EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B290506D20A97E5D00B289EF /* TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B290507120A97E5D00B289EF /* TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaUITests.swift; sourceTree = "<group>"; };
+		B290507320A97E5D00B289EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B290504B20A97E5B00B289EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B290505F20A97E5D00B289EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B290506A20A97E5D00B289EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B290504520A97E5B00B289EF = {
+			isa = PBXGroup;
+			children = (
+				B290505020A97E5B00B289EF /* Trivia */,
+				B290506520A97E5D00B289EF /* TriviaTests */,
+				B290507020A97E5D00B289EF /* TriviaUITests */,
+				B290504F20A97E5B00B289EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B290504F20A97E5B00B289EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B290504E20A97E5B00B289EF /* Trivia.app */,
+				B290506220A97E5D00B289EF /* TriviaTests.xctest */,
+				B290506D20A97E5D00B289EF /* TriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B290505020A97E5B00B289EF /* Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				B290505120A97E5B00B289EF /* AppDelegate.swift */,
+				B290505320A97E5B00B289EF /* ViewController.swift */,
+				B290505520A97E5B00B289EF /* Main.storyboard */,
+				B290505820A97E5D00B289EF /* Assets.xcassets */,
+				B290505A20A97E5D00B289EF /* LaunchScreen.storyboard */,
+				B290505D20A97E5D00B289EF /* Info.plist */,
+			);
+			path = Trivia;
+			sourceTree = "<group>";
+		};
+		B290506520A97E5D00B289EF /* TriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B290506620A97E5D00B289EF /* TriviaTests.swift */,
+				B290506820A97E5D00B289EF /* Info.plist */,
+			);
+			path = TriviaTests;
+			sourceTree = "<group>";
+		};
+		B290507020A97E5D00B289EF /* TriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B290507120A97E5D00B289EF /* TriviaUITests.swift */,
+				B290507320A97E5D00B289EF /* Info.plist */,
+			);
+			path = TriviaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B290504D20A97E5B00B289EF /* Trivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B290507620A97E5D00B289EF /* Build configuration list for PBXNativeTarget "Trivia" */;
+			buildPhases = (
+				B290504A20A97E5B00B289EF /* Sources */,
+				B290504B20A97E5B00B289EF /* Frameworks */,
+				B290504C20A97E5B00B289EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trivia;
+			productName = Trivia;
+			productReference = B290504E20A97E5B00B289EF /* Trivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B290506120A97E5D00B289EF /* TriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B290507920A97E5D00B289EF /* Build configuration list for PBXNativeTarget "TriviaTests" */;
+			buildPhases = (
+				B290505E20A97E5D00B289EF /* Sources */,
+				B290505F20A97E5D00B289EF /* Frameworks */,
+				B290506020A97E5D00B289EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B290506420A97E5D00B289EF /* PBXTargetDependency */,
+			);
+			name = TriviaTests;
+			productName = TriviaTests;
+			productReference = B290506220A97E5D00B289EF /* TriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B290506C20A97E5D00B289EF /* TriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B290507C20A97E5D00B289EF /* Build configuration list for PBXNativeTarget "TriviaUITests" */;
+			buildPhases = (
+				B290506920A97E5D00B289EF /* Sources */,
+				B290506A20A97E5D00B289EF /* Frameworks */,
+				B290506B20A97E5D00B289EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B290506F20A97E5D00B289EF /* PBXTargetDependency */,
+			);
+			name = TriviaUITests;
+			productName = TriviaUITests;
+			productReference = B290506D20A97E5D00B289EF /* TriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B290504620A97E5B00B289EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Eleanoor Polder";
+				TargetAttributes = {
+					B290504D20A97E5B00B289EF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B290506120A97E5D00B289EF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B290504D20A97E5B00B289EF;
+					};
+					B290506C20A97E5D00B289EF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B290504D20A97E5B00B289EF;
+					};
+				};
+			};
+			buildConfigurationList = B290504920A97E5B00B289EF /* Build configuration list for PBXProject "Trivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B290504520A97E5B00B289EF;
+			productRefGroup = B290504F20A97E5B00B289EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B290504D20A97E5B00B289EF /* Trivia */,
+				B290506120A97E5D00B289EF /* TriviaTests */,
+				B290506C20A97E5D00B289EF /* TriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B290504C20A97E5B00B289EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B290505C20A97E5D00B289EF /* LaunchScreen.storyboard in Resources */,
+				B290505920A97E5D00B289EF /* Assets.xcassets in Resources */,
+				B290505720A97E5B00B289EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B290506020A97E5D00B289EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B290506B20A97E5D00B289EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B290504A20A97E5B00B289EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B290505420A97E5B00B289EF /* ViewController.swift in Sources */,
+				B290505220A97E5B00B289EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B290505E20A97E5D00B289EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B290506720A97E5D00B289EF /* TriviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B290506920A97E5D00B289EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B290507220A97E5D00B289EF /* TriviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B290506420A97E5D00B289EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B290504D20A97E5B00B289EF /* Trivia */;
+			targetProxy = B290506320A97E5D00B289EF /* PBXContainerItemProxy */;
+		};
+		B290506F20A97E5D00B289EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B290504D20A97E5B00B289EF /* Trivia */;
+			targetProxy = B290506E20A97E5D00B289EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B290505520A97E5B00B289EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B290505620A97E5B00B289EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B290505A20A97E5D00B289EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B290505B20A97E5D00B289EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B290507420A97E5D00B289EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B290507520A97E5D00B289EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B290507720A97E5D00B289EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Trivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UvA.Trivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B290507820A97E5D00B289EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Trivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UvA.Trivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B290507A20A97E5D00B289EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UvA.TriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trivia.app/Trivia";
+			};
+			name = Debug;
+		};
+		B290507B20A97E5D00B289EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UvA.TriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trivia.app/Trivia";
+			};
+			name = Release;
+		};
+		B290507D20A97E5D00B289EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UvA.TriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trivia;
+			};
+			name = Debug;
+		};
+		B290507E20A97E5D00B289EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UvA.TriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trivia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B290504920A97E5B00B289EF /* Build configuration list for PBXProject "Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B290507420A97E5D00B289EF /* Debug */,
+				B290507520A97E5D00B289EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B290507620A97E5D00B289EF /* Build configuration list for PBXNativeTarget "Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B290507720A97E5D00B289EF /* Debug */,
+				B290507820A97E5D00B289EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B290507920A97E5D00B289EF /* Build configuration list for PBXNativeTarget "TriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B290507A20A97E5D00B289EF /* Debug */,
+				B290507B20A97E5D00B289EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B290507C20A97E5D00B289EF /* Build configuration list for PBXNativeTarget "TriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B290507D20A97E5D00B289EF /* Debug */,
+				B290507E20A97E5D00B289EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B290504620A97E5B00B289EF /* Project object */;
+}
